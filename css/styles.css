@@ -330,6 +330,42 @@ a {
 .command-text {
   font-size: 16px;
   line-height: 19px;
+  margin-bottom: 16px;
+}
+
+.command-social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.command-social-item {
+  width: 44px;
+  height: 44px;
+}
+
+.command-social-item + .command-social-item {
+  margin-left: 10px;
+}
+
+.command-social-link {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #afb1b8;
+}
+
+.command-social-link:hover,
+.command-social-link:focus {
+  background-color: var(--accent-color);
+  color: var(--main-title-color);
+}
+
+.command-social-icon {
+  fill: currentColor;
 }
 
 .command-box {
