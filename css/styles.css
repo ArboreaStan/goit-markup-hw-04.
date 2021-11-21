@@ -238,9 +238,9 @@ a {
 
 /*----------------REASONS SECTION-----------------*/
 
-.section {
+.reasons-section {
   padding-top: 98px;
-  padding-bottom: 90px;
+  padding-bottom: 94px;
 }
 
 .reasons-list {
@@ -399,28 +399,43 @@ a {
 
 /*----------------CUSTOMER SECTION------------------*/
 
+.customer-section {
+}
+
 .customer-list {
   display: flex;
   justify-content: center;
 }
+
+.customer-title {
+  color: var(--second-title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
 .customer-box {
   box-sizing: border-box;
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 3px;
-}
-.customer-item {
+  text-align: center;
 }
 
 .customer-box:not(:last-child) {
-  margin-right: 60px;
+  margin-right: 30px;
 }
 
 .customer-icon {
   width: 106px;
   height: 60px;
+  margin: 16px 32px;
 }
+
 /*---------------------FOOTER SECTION-----------------------*/
 
 .footer-section {
@@ -430,8 +445,6 @@ a {
 .contacts-box {
   padding-top: 60px;
   padding-bottom: 60px;
-  border: solid 2px;
-  border-color: #afb1b8;
 }
 
 .footer-link {
@@ -493,6 +506,10 @@ a {
   margin-bottom: 30px;
 }
 
+.works-card:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .works-box {
   border-style: solid;
   border-width: 1px;
@@ -534,6 +551,7 @@ a {
 .button-page:hover {
   color: #ffffff;
   background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .works-title {
