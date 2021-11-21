@@ -158,6 +158,10 @@ a {
   margin-left: 50px;
 }
 
+.auth-nav-item {
+  padding: 32px 0;
+}
+
 .auth-nav-link {
   font-weight: 500;
   font-size: 14px;
@@ -172,6 +176,8 @@ a {
 
 .auth-nav-link::before {
   content: "";
+  width: 16px;
+  height: 16px;
   background-color: tomato;
   display: block;
 }
@@ -248,7 +254,18 @@ a {
 
 .reasons-item {
   width: 270px;
-  height: 101px;
+  height: 251px;
+}
+
+.reasons-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+
+.reasons-icon {
 }
 
 .reasons-title {
@@ -271,7 +288,7 @@ a {
 /*--------------SPECIFIC SECTION------------------*/
 
 .specific-section {
-  padding-top: 0;
+  padding-top: 0px;
 }
 
 .specific-list {
